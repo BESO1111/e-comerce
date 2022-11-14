@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+list-style-type: none;
+text-decoration: 0;
+box-sizing: border-box;
+}
+
+header{
+    padding: 15px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+header input{
+    border-radius: 15px;
+    width: 180px;
+    transition: 2s;
+}
+header input:focus{
+
+    width: 400px;
+    background-color: rgb(82, 118, 82);
+    color: rgb(255, 255, 255);
+}
+
+header .divi{
+width: 280px;
+
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    align-content: center;
+}
+
+.divi .kalata1{
+
+    width: 90px;
+    height: 40px;
+    background-color: rgb(82, 82, 254);
+    color: rgb(66, 71, 72);
+    border-radius: 15px;
+    padding: 7px;
+    box-shadow: 2px 4px black;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.divi .kalata2{
+
+    width: 90px;
+    height: 40px;
+    background-color: rgb(82, 82, 254);
+    color: rgb(66, 71, 72);
+    border-radius: 15px;
+    padding: 7px;
+    box-shadow: 2px 4px black;
+    position: relative;
+    cursor: pointer;
+ 
+
+
+}
+
+.divi .kalata11{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+  border-radius: 5px;
+  border: 1px solid green;
+  top: 2px;
+margin-left: -28px;
+
+}
+
+.divi .kalata22{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+  border-radius: 5px;
+  border: 1px solid green;
+
+right: 364px;
+top: 2px;
+
+}
+
+.kalata1,.kalata2:active{
+cursor: pointer;
+box-shadow: 1px 2px black;
+}
+
+
+
+
+
+/* .divi p::before{
+    position: absolute;
+content: "";
+width: 30px;
+height: 30px;
+border-radius: 5px;
+border: 1px solid green;
+top: -13px;
+left:-24px;
+background-color: rgb(246, 255, 119);
+} */
+
+
+
+
+ article{
+width: 500px;
+background-color: blue;
+position: relative;
+
+ }
+
+ article .guli{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+ 
+
+}
+
+ article .kamera{
+width: 400px;
+height: 300px;
+margin-left: 45px;
+margin-top: 16px;
+
+ }
+
+ .agwera p{
+
+    width: auto;
+    height: 50px;
+    background-color: rgb(120, 76, 160);
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+ .agwera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+ }
+
+ .nivtebi{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap:wrap;
+ }
+
+
+
+
+
+ 
+.shenaxulinivtebi{
+    position: absolute;
+    width: 1400px;
+    height: 600px;
+   
+    border: 2px solid green;
+    box-shadow: 0px 0px 20px black;
+    background-color: rgb(155, 155, 222);
+    top: 80px;
+    left:60px;
+    display: none;
+
+    
+}
+.nivtebidivi{
+
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 120px;
+    margin-left: 1150px;
+    cursor: pointer;
+    padding-top: 30px;
+
+}
+
+.raodenoba{
+    width: 50px;
+    height: 38px;
+    border: 1px solid black;
+}
+.nivtebidivi P{
+
+    font-size: 40px;
+
+}
+
+
+.kalatebi{
+    position: absolute;
+
+    width: 1400px;
+    height: 600px;
+   
+    border: 2px solid green;
+    box-shadow: 0px 0px 20px black;
+    background-color: rgb(155, 155, 222); ;
+    top: 80px;
+    left: 60px;
+    display: none;
+}
+
+#cloze{
+
+    font-size: 40px;
+    position: absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+    padding: 8px 8px;
+
+}
+
+
+#cloze2{
+    font-size: 40px;
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 8px 8px;
+
+    cursor: pointer;
+}
